@@ -3,8 +3,10 @@
 
 ## How to
 - Since our goal is to minimize our resource usage, we will use free cloud databases on [Neon](https://neon.tech/).
-![Screenshot 2024-06-29 012432](https://github.com/lindaa77/Finpro_DataWarehouse/assets/126089968/71401560-dcbf-4f2c-a348-2a1f7644ab59)
 ![Screenshot 2024-06-29 012506](https://github.com/lindaa77/Finpro_DataWarehouse/assets/126089968/dfd2abc6-2d99-4a7e-9c8e-4b996ec4c367)
+
+![Screenshot 2024-06-29 012432](https://github.com/lindaa77/Finpro_DataWarehouse/assets/126089968/71401560-dcbf-4f2c-a348-2a1f7644ab59)
+
 - Once we create a database in it, get the connection string and put it in variable `DW_POSTGRES_URI` at `.env`
     ```.env
     DW_POSTGRES_URI="postgresql://...?sslmode=require"
