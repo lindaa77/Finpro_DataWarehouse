@@ -1,5 +1,5 @@
 # Finpro_DataWarehouse
-# Dibimbing - Kampus Merdeka - Final Project Template
+# Dibimbing - Kampus Merdeka - Rosmalinda Marbun
 
 ## How to
 - Since our goal is to minimize our resource usage, we will use free cloud databases on [Neon](https://neon.tech/). Once we create a database in it, get the connection string and put it in variable `DW_POSTGRES_URI` at `.env`
