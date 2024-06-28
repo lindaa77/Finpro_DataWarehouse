@@ -1,4 +1,4 @@
-# Import necessary modules from Airflow
+#Import necessary modules from Airflow
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
 from airflow.hooks.postgres_hook import PostgresHook
