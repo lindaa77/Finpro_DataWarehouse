@@ -20,6 +20,7 @@
     - If you didn't find the created tables in the Metabase `Browse data`, you can try to sync it through Metabase admin UI
 ---
 ## Folder Structure
+![Screenshot 2024-06-29 011158](https://github.com/lindaa77/Finpro_DataWarehouse/assets/126089968/b1663f16-78cc-4344-858a-79e1b01b6037)
 
 **main**
 
