@@ -19,8 +19,8 @@ def postgres_connection():
     connection_string = URL.create(
         'postgresql',
         username='data_warehouse_owner',
-        password='gkZW8NFvC0mG',
-        host='ep-mute-wind-a5di8srb.us-east-2.aws.neon.tech',
+        password='nGkWTRfc78Jh',
+        host='ep-fragrant-resonance-a5lrdyrl.us-east-2.aws.neon.tech',
         database='data_warehouse',
         port=5432,
         query={'sslmode': 'require'}
