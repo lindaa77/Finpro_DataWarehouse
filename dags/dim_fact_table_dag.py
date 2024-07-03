@@ -16,14 +16,14 @@ default_args = {
 }
 
 # Function to create a connection to the source PostgreSQL database
-def source_postgres_connection():
+def postgres_connection():
     connection_string = URL.create(
-        drivername='postgresql',
+        'postgresql',
         username='data_warehouse_owner',
-        password='b59hqfNxdVwr',
-        host='ep-wild-surf-a5em82m5.us-east-2.aws.neon.tech',
-        port=5432,
+        password='nGkWTRfc78Jh',
+        host='ep-fragrant-resonance-a5lrdyrl.us-east-2.aws.neon.tech',
         database='data_warehouse',
+        port=5432,
         query={'sslmode': 'require'}
     )
     engine = create_engine(connection_string)
